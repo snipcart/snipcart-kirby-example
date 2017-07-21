@@ -9,13 +9,9 @@
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
     <?php echo css('assets/css/main.css') ?>
-    <script
-      src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-      type="text/javascript"></script>
 
-    <link id="snipcart-theme" type="text/css"
-        href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"
-        rel="stylesheet">
+    <!-- removed jquery script and snipcart css call here - now called in footer from snipcart snippet -->
+
   </head>
   <body>
     <div class="main-section">
